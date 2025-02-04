@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NÔNG SẢN NGỌC SƠN</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <!-- Link Font Awesome để sử dụng icon -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Thanh menu -->
+    <header>
+      <nav>
+        <div class="logo">
+          <i class="fa-solid fa-carrot"></i>
+          <span class="pet">NÔNG SẢN </span>
+          <span class="world">NGỌC SƠN</span>
+        </div>
+        <ul>
+          <li><a href="#home">Trang chủ</a></li>
+          <li><a href="#product">Sản phẩm</a></li>
+          <li><a href="#contact">Liên hệ</a></li>
+          <!-- Change href to #contact-footer -->
+        </ul>
+        <!-- Thêm icon giỏ hàng và đăng nhập -->
+        <div class="nav-icons">
+          <a href="#"><i class="fas fa-user"></i></a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Trang chủ -->
+    <section id="home">
+      <div class="home-content">
+        <h3>Sự hài lòng của bạn</h3>
+        <h3>là ưu tiên</h3>
+        <h3>của chúng tôi.</h3>
+      </div>
+      <div class="home-image">
+        <img src="image/anh6.jpg" alt="Thú cưng đáng yêu" />
+      </div>
+    </section>
+
+    <!-- Sản phẩm -->
+    <section id="product">
+      <h2>Sản phẩm</h2>
+
+      <div class="product-container">
+        <div class="product-item">
+          <img src="image/anh2.jpg" alt="Sup lo" class="product-image"/>
+          <h3 class="product-name">Rau súp lơ xanh</h3>
+          <p class="product-description">
+            Rau Sup lo
+          </p>
+          <p class="product-price">Giá: 5.000 VND/ 1 cây</p>
+          <a href="#contact">
+            <button class="btn-add-to-cart">Mua ngay</button>
+          </a>
+        </div>
+
+          <div class="product-item">
+            <img src="image/anh5.jpg" alt="Sup lo" class="product-image"/>
+            <h3 class="product-name">Rau súp lơ xanh</h3>
+            <p class="product-description">
+              Rau Sup lo
+            </p>
+            <p class="product-price">Giá: 5.000 VND/ 1 cây</p>
+            <a href="#contact">
+              <button class="btn-add-to-cart">Mua ngay</button>
+            </a>
+          </div>
+
+        <div class="product-item">
+          <img src="image/anh9.jpg" alt="Sup lo" class="product-image"/>
+          <h3 class="product-name">Rau súp lơ xanh</h3>
+          <p class="product-description">
+            Rau Sups lơ xanh
+          </p>
+          <p class="product-price">Giá: 5.000 VND/ 1 cây</p>
+          <a href="#contact">
+            <button class="btn-add-to-cart">Mua ngay</button>
+          </a>
+        </div>
+
+        <div class="product-item">
+          <img
+            src="image/anh4.jpg"
+            alt="Máy hút bụi tự động"
+            class="product-image"
+          />
+          <h3 class="product-name">Đỗ xanh</h3>
+          <p class="product-description">
+            Đỗ xanh
+          </p>
+          <p class="product-price">Giá: 10.000VND/ 1KG</p>
+          <button class="btn-add-to-cart"><a href="#contact">Mua ngay</a></button>
+        </div>
+
+          <div class="product-item">
+            <img
+                    src="image/anh7.jpg"
+                    alt="Đỗ xanh"
+                    class="product-image"
+            />
+            <h3 class="product-name">Đỗ xanh</h3>
+            <p class="product-description">
+              Đỗ xanh
+            </p>
+            <p class="product-price">Giá: 10.000VND/ 1KG</p>
+            <button class="btn-add-to-cart"><a href="#contact">Mua ngay</a></button>
+          </div>
+
+        <div class="product-item">
+          <img
+                  src="image/anh11.jpg"
+                  alt="Đỗ xanh"
+                  class="product-image"
+          />
+          <h3 class="product-name">Đỗ xanh</h3>
+          <p class="product-description">
+            Đỗ xanh
+          </p>
+          <p class="product-price">Giá: 10.000VND/ 1KG</p>
+          <button class="btn-add-to-cart"><a href="#contact">Mua ngay</a></button>
+        </div>
+
+      </div>
+
+      <p>
+        Chúng tôi cung cấp nhiều loại nông sản xanh sạch đến với mọi
+        gia đình.
+      </p>
+    </section>
+
+    <!-- Khuyến mãi -->
+    <section id="contact">
+      <h2>Thông tin nhận hàng</h2>
+
+      <!-- Sale Select Form -->
+      <form id="contact-form" class="contact-form">
+        <div class="form-group">
+          <label for="name">Tên</label>
+          <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Nhập tên của bạn"
+                  required
+          />
+        </div>
+        <div class="form-group">
+          <label for="phone">Số điện thoại</label>
+          <input type="tel" id="phone" name="phone" placeholder="Nhập số điện thoại" required/>
+        </div>
+        <div class="form-group">
+          <label for="address">Địa chỉ</label>
+          <input
+                  type="text" id="address" name="address" placeholder="Nhập địa chỉ nhận hàng" required/>
+        </div>
+        <button type="submit" class="btn-submit">
+          Gửi
+        </button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact-footer">
+      <div class="footer-content">
+        <!-- Left Section (Logo and Social Media Icons) -->
+        <div class="footer-logo">
+          <div class="logo">
+            <i class="fa-solid fa-carrot"></i>
+            <span class="pet">NÔNG SẢN</span>
+            <span class="world">NGỌC SƠN</span>
+          </div>
+          <!-- Social Media Links -->
+          <div class="social-media">
+            <a href="https://www.facebook.com/TrungKienLegend.IT/?locale=vi_VN" target="_blank">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Section (Address, Phone, Email) -->
+        <div class="footer-info">
+          <p><strong>Địa chỉ:</strong> Xóm Cha, xã Ngọc Sơn, huyện Lạc Sơn, tỉnh Hòa Bình.</p>
+          <p>
+            <strong>Số điện thoại:</strong>
+            <a href="tel:0329636928">0329636928</a>
+          </p>
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:trungkienlegend.vn@gmail.com">trungkienlegend.vn@gmail.com</a>
+          </p>
+          <p><strong>Giờ làm việc:</strong> 07h30 - 20h00 (Thứ 2 - Thứ 7)</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 NÔNG SẢN NGỌC SƠN. All rights reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
