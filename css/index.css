@@ -667,10 +667,28 @@ header {
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
-.social-media a:hover {
-  transform: scale(1.2);
-  color: #0374fb; /* Change color on hover */
+.social-media a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px; /* Tạo khoảng cách giữa icon và chữ */
+  text-decoration: none;
+  font-weight: bold;
+  color: white; /* Màu chữ trắng */
+  background-color: #0374fb; /* Nền màu xanh */
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: 0.3s ease-in-out;
 }
+
+.social-media a:hover {
+  background-color: #025bbf; /* Đổi màu khi hover */
+}
+
+.social-media i {
+  color: white; /* Màu icon trắng */
+  font-size: 18px;
+}
+
 
 /* Right Section - Address, Phone, Email */
 .footer-info {
